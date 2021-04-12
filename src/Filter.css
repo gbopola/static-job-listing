@@ -1,0 +1,69 @@
+.Filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 5rem;
+    padding: 1.25rem 2.75rem;
+    position: relative;
+    top: -2.75rem;
+    box-shadow: 1px 12px 28px -2px rgba(91,164,164,0.26);
+}
+
+ .inner-filter {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+.filterTab {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.inner-filter p {
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+    font-size: 15px;
+    background: hsl(180, 31%, 95%);
+    padding: 0.5rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.inner-filter img {
+    background: hsl(180, 29%, 50%);
+    padding: 0.6rem;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.inner-filter img:hover {
+    background: hsl(180, 14%, 20%);
+    transition: .2s ease-in-out;
+}
+
+.clear {
+    color:hsl(180, 29%, 50%);
+    font-weight: 500;
+}
+
+.clear:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1168px){
+    .Filter {
+        margin: 0 1rem;
+        padding: 1rem 1rem 0 1rem;
+    } 
+
+    .filterTab {
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,10 @@
+.header {
+    background: url(../src/images/bg-header-desktop.svg) hsl(180, 29%, 50%) no-repeat center center/cover;
+    height: 150px;
+}
+
+@media screen and (max-width: 375px){
+    .header {
+        background: url(../src/images/bg-header-mobile.svg) hsl(180, 29%, 50%) no-repeat center center/cover;
+    }
+}
